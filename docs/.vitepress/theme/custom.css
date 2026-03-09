@@ -1,0 +1,97 @@
+/* ============================================================================
+   Claw Doc 自定义样式
+   ============================================================================ */
+
+/* 布局宽度调整 */
+:root {
+  --vp-layout-max-width: 95%;
+  --vp-sidebar-width: 300px;
+}
+
+/* 公告栏高度 */
+:root {
+  --vp-layout-top-height: 40px;
+}
+
+/* 图片样式 */
+.vp-doc img {
+  max-height: 50vh;
+  width: auto;
+  display: block;
+}
+
+.vp-doc img+em {
+  display: block;
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 0.9em;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 内容宽度覆盖 */
+.VPDoc:not(.has-sidebar) .container {
+  max-width: 2000px !important;
+}
+
+.VPDoc:not(.has-sidebar) .content {
+  max-width: 1264px !important;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: 1168px !important;
+}
+
+.VPDoc .container {
+  margin: 0;
+}
+
+/* 品牌色 */
+:root {
+  --vp-c-brand-1: #660874;
+  --vp-c-brand-2: #8b3fa3;
+  --vp-c-brand-3: #4ecdc4;
+}
+
+/* 返回顶部按钮 */
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #660874;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 9998;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#back-to-top:hover {
+  background: #4ecdc4;
+  transform: scale(1.1);
+}
+
+/* 阅读进度条 */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, #660874, #4ecdc4);
+  z-index: 9999;
+  transition: width 0.2s ease;
+}
+
+/* 暗色模式适配 */
+.dark {
+  --vp-c-brand-1: #9b4db3;
+  --vp-c-brand-2: #b87fc9;
+}
