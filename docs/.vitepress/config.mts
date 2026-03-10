@@ -23,8 +23,8 @@ export default defineConfig({
           label: '目录'
         },
         nav: [
-          { text: '领养 Claw', link: '/cn/adopt/chapter0' },
-          { text: '构建 Claw', link: '/cn/build/' },
+          { text: '部署', link: '/cn/adopt/chapter0' },
+          { text: '实践', link: '/cn/build/' },
           { text: 'GitHub', link: 'https://github.com/MrLoo1/Claw-Doc' },
         ],
         search: {
@@ -49,7 +49,7 @@ export default defineConfig({
         sidebar: {
           '/cn/adopt/': [
             {
-              text: '📖 领养 Claw（使用篇）',
+              text: '📖 部署',
               items: [
                 { text: '写在开头', link: '/cn/adopt/chapter0' },
                 { text: '第 1 章 快速上手', link: '/cn/adopt/chapter1' },
@@ -80,7 +80,7 @@ export default defineConfig({
           ],
           '/cn/build/': [
             {
-              text: '🛠️ 构建 Claw（开发篇）',
+              text: '🛠️ 实践',
               items: [
                 { text: '写在开头', link: '/cn/build/' },
                 { text: '第 1 章 核心定位与设计理念', link: '/cn/build/chapter1' },
