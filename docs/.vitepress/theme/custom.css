@@ -8,10 +8,10 @@
   --vp-sidebar-width: 300px;
 }
 
-/* 首页 Hero 区域优化 */
+/* 首页 Hero 区域优化 - 减少留白，内容上移 */
 .VPHero {
-  padding: 8rem 0 4rem;
-  margin-top: 0;
+  padding: 2rem 0 1rem !important;
+  margin-top: 0 !important;
 }
 
 .VPHero .name {
@@ -22,18 +22,37 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   line-height: 1.2;
+  margin-bottom: 0.25rem !important;
 }
 
 .VPHero .text {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 0.5rem;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
 }
 
 .VPHero .tagline {
   font-size: 1rem;
   opacity: 0.7;
-  margin-top: 0.75rem;
+  margin-top: 0.25rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.VPHero .actions {
+  margin-top: 1rem !important;
+}
+
+/* 首页 Hero 区域 - 确保从导航栏下方开始 */
+.VPHomeHero {
+  margin-top: 0 !important;
+  padding-top: var(--vp-nav-height) !important;
+}
+
+/* 特性卡片区域上移 */
+.VPFeatures {
+  padding: 1rem 0 !important;
+  margin-top: 0.5rem !important;
 }
 
 /* 导航栏固定和模糊效果 - 确保始终在最上层，紧贴顶部 */
