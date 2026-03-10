@@ -8,10 +8,10 @@
   --vp-sidebar-width: 300px;
 }
 
-/* 首页 Hero 区域优化 - 减少留白，内容上移 */
+/* 首页 Hero 区域优化 - 极致紧凑，内容贴顶 */
 .VPHero {
-  padding: 2rem 0 1rem !important;
-  margin-top: 0 !important;
+  padding: 0.5rem 0 0.5rem !important;
+  margin-top: -1rem !important;
 }
 
 .VPHero .name {
@@ -21,37 +21,43 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 1.2;
-  margin-bottom: 0.25rem !important;
+  line-height: 1.1;
+  margin-bottom: 0 !important;
 }
 
 .VPHero .text {
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 0.25rem !important;
-  margin-bottom: 0.25rem !important;
+  margin-bottom: 0 !important;
 }
 
 .VPHero .tagline {
   font-size: 1rem;
   opacity: 0.7;
   margin-top: 0.25rem !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.75rem !important;
 }
 
 .VPHero .actions {
-  margin-top: 1rem !important;
+  margin-top: 0.75rem !important;
+  margin-bottom: 0 !important;
 }
 
-/* 首页 Hero 区域 - 确保从导航栏下方开始 */
+/* 首页 Hero 区域 - 紧贴导航栏 */
 .VPHomeHero {
   margin-top: 0 !important;
-  padding-top: var(--vp-nav-height) !important;
+  padding-top: calc(var(--vp-nav-height) - 8px) !important;
 }
 
 /* 特性卡片区域上移 */
 .VPFeatures {
-  padding: 1rem 0 !important;
+  padding: 0.5rem 0 !important;
+  margin-top: 0 !important;
+}
+
+/* 快速导航区域上移 */
+.VPHome .container > section {
   margin-top: 0.5rem !important;
 }
 
