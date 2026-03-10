@@ -8,6 +8,66 @@
   --vp-sidebar-width: 300px;
 }
 
+/* 首页 Hero 区域优化 */
+.VPHero {
+  padding: 4rem 0 2rem;
+}
+
+.VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.VPHero .text {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.VPHero .tagline {
+  font-size: 1.25rem;
+  opacity: 0.8;
+}
+
+/* 特性卡片优化 */
+.VPFeature {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* 快速导航表格优化 */
+.vp-doc table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vp-doc table th {
+  background: var(--vp-c-brand-1);
+  color: white;
+  font-weight: 600;
+}
+
+/* 分隔线优化 */
+.vp-doc hr {
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+  margin: 2rem 0;
+}
+
+/* 代码块优化 */
+.vp-doc pre {
+  border-radius: 8px;
+  background: var(--vp-code-block-bg);
+}
+
 /* 公告栏高度 */
 :root {
   --vp-layout-top-height: 40px;
