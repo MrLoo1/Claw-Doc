@@ -36,26 +36,40 @@
   margin-top: 0.75rem;
 }
 
-/* 导航栏固定和模糊效果 - 确保始终在最上层 */
+/* 导航栏固定和模糊效果 - 确保始终在最上层，紧贴顶部 */
 .VPNav {
   backdrop-filter: blur(16px) !important;
   background: rgba(255, 255, 255, 0.98) !important;
   border-bottom: 1px solid var(--vp-c-divider);
   position: fixed !important;
-  top: 0;
+  top: 0 !important;
   left: 0;
   right: 0;
   z-index: 1000 !important;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .dark .VPNav {
   background: rgba(30, 30, 30, 0.98) !important;
 }
 
+/* 导航栏内部容器 */
+.VPNav .VPNavBar {
+  margin: 0 !important;
+  padding: 0 24px !important;
+}
+
 /* 导航栏占位，防止内容被遮挡 */
 .VPNav + .VPContent {
   padding-top: var(--vp-nav-height);
+}
+
+/* 首页 Hero 区域 - 确保从导航栏下方开始 */
+.VPHomeHero {
+  margin-top: 0 !important;
+  padding-top: calc(var(--vp-nav-height) + 2rem);
 }
 
 /* 首页内容区域优化 */
