@@ -23,8 +23,8 @@ export default defineConfig({
           label: '目录'
         },
         nav: [
-          { text: '部署', link: '/cn/adopt/chapter0' },
-          { text: '实践', link: '/cn/build/' },
+          { text: '部署 🦞', link: '/cn/adopt/chapter0' },
+          { text: '实践 🦞', link: '/cn/build/' },
           { text: 'GitHub', link: 'https://github.com/MrLoo1/Claw-Doc' },
         ],
         search: {
