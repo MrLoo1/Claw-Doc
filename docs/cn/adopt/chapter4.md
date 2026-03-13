@@ -1,4 +1,4 @@
-# 第4章 技能系统
+# 第 4 章 Skills 技能系统
 
 技能 (Skills) 是 OpenClaw 的核心扩展机制。
 
