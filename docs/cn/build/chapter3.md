@@ -61,4 +61,4 @@ console.log(await response.text());
 
 ## 下一步
 
-- [第4章 渠道开发](/cn/build/chapter4) - 开发新的消息渠道
+- [第 4 章 工具系统](/cn/build/chapter4) - 开发自定义工具

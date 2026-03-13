@@ -132,5 +132,5 @@ TELEGRAM_BOT_TOKEN=123456:ABC-xxx
 
 ## 下一步
 
-- [第3章 渠道接入](/cn/adopt/chapter3) - 连接到各个平台
+- [第 3 章 自动化任务入门](/cn/adopt/chapter3) - 开始自动化工作流
 - [附录 A：命令速查表](/cn/appendix/appendix-a) - 所有命令参考

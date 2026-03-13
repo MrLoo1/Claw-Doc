@@ -67,4 +67,4 @@ channels:
 
 ## 下一步
 
-- [第5章 技能开发](/cn/build/chapter5) - 开发自定义技能
+- [第 5 章 消息循环与事件驱动](/cn/build/chapter5) - 了解消息处理机制

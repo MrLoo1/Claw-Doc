@@ -70,9 +70,9 @@ openclaw skill install github:user/repo
 
 ## 开发自定义技能
 
-详见 [第5章 技能开发](/cn/build/chapter5)。
+详见 [第 13 章 Skill 编写](/cn/build/chapter13)。
 
 ## 下一步
 
-- [第5章 记忆与上下文](/cn/adopt/chapter5) - 让助理记住重要信息
-- [第5章 技能开发](/cn/build/chapter5) - 开发自己的技能
+- [第 5 章 外部服务集成](/cn/adopt/chapter5) - 连接外部服务
+- [第 13 章 Skill 编写](/cn/build/chapter13) - 开发自定义技能

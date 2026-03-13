@@ -12,12 +12,12 @@
 
 | 章节 | 内容 |
 |------|------|
-| [第1章 核心架构](/cn/build/chapter1) | 整体架构设计 |
-| [第2章 提示词系统](/cn/build/chapter2) | 提示词工程 |
-| [第3章 工具系统](/cn/build/chapter3) | 工具开发 |
-| [第4章 渠道开发](/cn/build/chapter4) | 新渠道接入 |
-| [第5章 技能开发](/cn/build/chapter5) | 自定义技能 |
-| [第6章 安全加固](/cn/build/chapter6) | 安全最佳实践 |
+| [第 1 章 核心定位与设计理念](/cn/build/chapter1) | 核心设计思想 |
+| [第 2 章 整体架构解析](/cn/build/chapter2) | 架构深入分析 |
+| [第 3 章 提示词系统](/cn/build/chapter3) | 提示词工程 |
+| [第 4 章 工具系统](/cn/build/chapter4) | 工具开发 |
+| [第 5 章 消息循环与事件驱动](/cn/build/chapter5) | 消息处理机制 |
+| [第 6 章 多渠道接入](/cn/build/chapter6) | 多平台接入 |
 
 ## 快速开始
 
@@ -35,4 +35,4 @@ npm run dev
 
 准备好了吗？让我们开始吧！
 
-👉 [第1章 核心架构](/cn/build/chapter1)
+👉 [第 1 章 核心定位与设计理念](/cn/build/chapter1)

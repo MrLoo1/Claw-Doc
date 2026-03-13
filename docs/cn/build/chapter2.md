@@ -63,4 +63,4 @@ agent:
 
 ## 下一步
 
-- [第3章 工具系统](/cn/build/chapter3) - 开发自定义工具
+- [第 3 章 提示词系统](/cn/build/chapter3) - 深入提示词设计

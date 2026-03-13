@@ -72,4 +72,4 @@ npm publish
 
 ## 下一步
 
-- [第6章 安全加固](/cn/build/chapter6) - 安全最佳实践
+- [第 6 章 多渠道接入](/cn/build/chapter6) - 接入多个消息平台

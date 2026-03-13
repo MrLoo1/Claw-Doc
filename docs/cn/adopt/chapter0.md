@@ -27,10 +27,10 @@ OpenClaw 是一个开源的 AI 助理框架，让你能够：
 
 | 我想... | 阅读 |
 |---------|------|
-| 快速上手使用 | [第1章 快速开始](/cn/adopt/chapter1) |
-| 了解所有命令 | [第2章 命令行与配置](/cn/adopt/chapter2) |
-| 接入 QQ/Telegram | [第3章 渠道接入](/cn/adopt/chapter3) |
-| 开发自定义技能 | [第5章 技能开发](/cn/build/chapter5) |
+| 快速上手使用 | [第 1 章 十分钟上手 OpenClaw](/cn/adopt/chapter1) |
+| 移动端接入 | [第 2 章 移动端接入](/cn/adopt/chapter2) |
+| 自动化任务入门 | [第 3 章 自动化任务入门](/cn/adopt/chapter3) |
+| 开发自定义技能 | [第 13 章 Skill 编写](/cn/build/chapter13) |
 
 ## 关于名字
 
@@ -43,4 +43,4 @@ OpenClaw 是一个开源的 AI 助理框架，让你能够：
 
 准备好了吗？让我们开始吧！
 
-👉 [下一章：快速开始](/cn/adopt/chapter1)
+👉 [下一章：十分钟上手 OpenClaw](/cn/adopt/chapter1)

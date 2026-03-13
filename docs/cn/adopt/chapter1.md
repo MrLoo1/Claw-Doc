@@ -278,9 +278,9 @@ openclaw chat
 
 ## 🎯 下一步
 
-- [第2章 命令行与配置](/cn/adopt/chapter2) - 深入了解配置选项
-- [第3章 渠道接入](/cn/adopt/chapter3) - 连接到 QQ、Telegram、Discord
-- [第4章 多 Agent 配置](/cn/adopt/chapter4) - 配置多个独立 Agent
+- [第 2 章 移动端接入](/cn/adopt/chapter2) - 在手机上使用 OpenClaw
+- [第 3 章 自动化任务入门](/cn/adopt/chapter3) - 开始自动化工作流
+- [第 4 章 Skills 技能系统](/cn/adopt/chapter4) - 扩展助理能力
 - [附录 A：命令速查表](/cn/appendix/appendix-a) - 完整命令参考
 
 ---

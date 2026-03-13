@@ -109,5 +109,5 @@ channels:
 
 ## 下一步
 
-- [第4章 技能系统](/cn/adopt/chapter4) - 扩展助理能力
+- [第 4 章 Skills 技能系统](/cn/adopt/chapter4) - 扩展助理能力
 - [附录 B：配置文件详解](/cn/appendix/appendix-b) - 完整配置参考

@@ -67,4 +67,4 @@ Agent 是 OpenClaw 的核心，负责：
 
 ## 下一步
 
-- [第2章 提示词系统](/cn/build/chapter2) - 了解提示词设计
+- [第 2 章 整体架构解析](/cn/build/chapter2) - 深入了解架构设计
